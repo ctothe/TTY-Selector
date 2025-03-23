@@ -45,4 +45,5 @@ if ! [[ "$baud_rate" =~ ^[0-9]+$ ]]; then
     echo "Invalid baud rate entered. Using default 9600."
     baud_rate=9600
 fi
+
 echo "Connecting to $device_path at $baud_rate baud..."
